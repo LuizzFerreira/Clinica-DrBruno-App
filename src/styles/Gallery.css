@@ -1,0 +1,95 @@
+.Gallery {
+  padding: 100px 40px;
+  background: radial-gradient(circle at top, #111, #000);
+  color: white;
+  text-align: center;
+}
+
+/* HEADER */
+.Gallery-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.Gallery-header p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  opacity: 0.7;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.filters button {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filters button:hover {
+  background: orange;
+  color: black;
+}
+
+/* GRID */
+.Gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.Gallery-item {
+  height: 220px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Gallery-item:hover {
+  transform: scale(1.05);
+}
+
+/* CTA */
+.Gallery-cta {
+  padding: 40px;
+  background: #111;
+  border-radius: 12px;
+}
+
+.Gallery-cta h2 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary {
+  background: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid orange;
+  color: orange;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}

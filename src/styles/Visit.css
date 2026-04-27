@@ -1,0 +1,50 @@
+.visit {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background: #0b0b0b;
+  color: white;
+  gap: 40px;
+}
+.visit > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1800px;
+  margin: auto;
+}
+.visit-content {
+  max-width: 500px;
+}
+
+.visit h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.visit p {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.info div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: transparent;
+  border: 1px solid orange;
+  color: orange;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.visit-image {
+  border-radius: 12px;
+  width: 400px;
+}
