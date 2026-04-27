@@ -39,3 +39,18 @@
   margin-left: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px;
+  }
+  .footer > div {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .footer-center {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

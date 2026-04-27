@@ -110,3 +110,20 @@ button {
   max-width: 600px;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 20px;
+    height: 70vh;
+    justify-content: center;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}

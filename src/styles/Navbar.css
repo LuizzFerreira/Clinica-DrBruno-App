@@ -71,16 +71,24 @@
     position: absolute;
     top: 70px;
     right: 0;
-    background: #0b0b0b;
+    background: rgba(15, 15, 15, 0.95);
+    backdrop-filter: blur(15px);
     flex-direction: column;
-    width: 200px;
-    padding: 20px;
+    width: 100%;
+    padding: 40px 0;
+    align-items: center;
     transform: translateX(100%);
-    transition: 0.3s;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-bottom: 1px solid #222;
   }
 
   .links.active {
     transform: translateX(0);
+  }
+
+  .links a {
+    font-size: 18px;
+    font-weight: 500;
   }
 
   .hamburger {

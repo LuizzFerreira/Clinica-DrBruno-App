@@ -48,3 +48,19 @@
   border-radius: 12px;
   width: 400px;
 }
+
+@media (max-width: 768px) {
+  .visit {
+    padding: 40px 20px;
+  }
+  .visit > div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .visit-image {
+    width: 100%;
+  }
+  .info div {
+    justify-content: center;
+  }
+}

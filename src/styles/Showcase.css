@@ -78,3 +78,13 @@
   font-size: 20px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .showcase-top {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase-bottom {
+    grid-template-columns: 1fr;
+  }
+}

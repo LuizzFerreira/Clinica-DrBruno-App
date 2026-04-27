@@ -10,7 +10,9 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <img className="logo" src={logo} alt="SNACK Logo" />
+      <a href="/">
+        <img className="logo" src={logo} alt="SNACK Logo" />
+      </a>
 
       <div className={`links ${open ? "active" : ""}`}>
         <a href="/">Home</a>
