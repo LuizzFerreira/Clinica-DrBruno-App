@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "../styles/Hero.css";
-import img1 from "../assets/img/image-5.webp";
-import img2 from "../assets/img/image-2.webp";
-import img3 from "../assets/img/image-3.webp";
-import img4 from "../assets/img/image-4.webp";;
+import img1 from "../assets/img/image-10.webp";
+import img2 from "../assets/img/image-7.webp";
+import img3 from "../assets/img/image-11.webp";
+import img4 from "../assets/img/image-12.webp";;
 
 const images = [img1, img2, img3, img4];
 
@@ -48,7 +48,7 @@ export default function Hero() {
 
         <div className="buttons">
           <button className="primary">Order Now</button>
-          <button className="secondary">View Menu</button>
+          <button className="secondary">Ver Cardápio</button>
         </div>
       </div>
     </section>

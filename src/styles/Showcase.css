@@ -30,11 +30,9 @@
   height: 100%;
   object-fit: cover;
 }
-
-.big-card.right {
-  background-image: url("https://images.unsplash.com/photo-1573080496219-bb080dd4f877");
+.big-card .img-back-bottom {
+  object-position: center -100px;
 }
-
 .big-card .overlay {
   position: absolute;
   inset: 0;

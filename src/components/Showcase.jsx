@@ -1,5 +1,6 @@
 import "../styles/Showcase.css";
-import img1 from "../assets/img/image-1.webp";
+import img1 from "../assets/img/image-8.webp";
+import img2 from "../assets/img/image-9.webp";
 
 export default function Showcase() {
   return (
@@ -20,6 +21,7 @@ export default function Showcase() {
         </div>
 
         <div className="big-card right">
+          <img className="img-back img-back-bottom" src={img2} alt="SNACK Logo" />
           <div className="overlay" />
           <div className="content">
             <span>ACOMPANHAMENTOS</span>

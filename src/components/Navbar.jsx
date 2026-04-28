@@ -16,7 +16,7 @@ export default function Navbar() {
 
       <div className={`links ${open ? "active" : ""}`}>
         <a href="/">Home</a>
-        <a href="/menu">Menu</a>
+        <a href="/menu">Cardápio</a>
         <a href="/Gallery">Galeria</a>
         <a href="/location">Localização</a>
       </div>
