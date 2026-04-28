@@ -23,6 +23,9 @@
   color: white;
   text-align: left;
 }
+.hero-content > h1 {
+    color: white;
+}
 .tag {
   color: orange;
   font-size: 14px;

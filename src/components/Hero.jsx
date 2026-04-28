@@ -41,7 +41,7 @@ export default function Hero() {
         <span className="tag">Seu Jantar tem que ter...</span>
 
         <h1>
-          Burguer da <span>Snack</span>
+          Snack <span>Burguer</span>
         </h1>
 
         <p>Faça seu pedido pelo nosso link ou venha nos visitar...</p>
