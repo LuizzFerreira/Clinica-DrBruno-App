@@ -170,6 +170,123 @@ const MENU_DATA = [
         link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51191/0/snack-burguer-."
       }
     ]
+  },
+  {
+    category: "Lanches",
+    items: [
+      {
+        name: "Juicy Burguer",
+        price: "R$ 18,00",
+        desc: "Pão brioche, hambúrguer, alface, tomate, cheddar e molho picante com barbecue.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812501256blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51175/0/snack-burguer-."
+      },
+      {
+        name: "Sensorial",
+        price: "R$ 20,00",
+        desc: "Pão brioche, alface, tomate, hambúrguer, creme cheddar, molho levemente picante, cebola roxa defumada e barbecue.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812593409blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b5117a/0/snack-burguer-."
+      },
+      {
+        name: "X-burguer",
+        price: "R$ 23,00",
+        desc: "Pão brioche, hambúrguer, barbecue, alface, tomate, ovo, mussarela, cheddar e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812488057blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51176/0/snack-burguer-."
+      },
+      {
+        name: "Griff Costela",
+        price: "R$ 26,00",
+        desc: "Pão brioche, alface, tomate, queijo cheddar, hambúrguer de costela, cebola defumada na brasa, ovo e mussarela.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812444504blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51178/0/snack-burguer-."
+      },
+      {
+        name: "Classic Burguer",
+        price: "R$ 30,00",
+        desc: "Pão brioche, hambúrguer, alface, tomate, cheddar, ovo, mussarela, bacon, banana, barbecue e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812541224blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51179/0/snack-burguer-."
+      },
+      {
+        name: "Snack",
+        price: "R$ 26,00",
+        desc: "Pão brioche, alface, tomate, hambúrguer, ovo, mussarela, barbecue, cebola caramelizada e queijo.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810247911blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b5117c/0/snack-burguer-."
+      },
+      {
+        name: "Snack Frango",
+        price: "R$ 23,00",
+        desc: "Pão brioche, alface, tomate, batata palha, filé de frango empanado, ovo, mussarela e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812464720blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51177/0/snack-burguer-."
+      },
+      {
+        name: "Monster Burguer",
+        price: "R$ 34,00",
+        desc: "Pão brioche, alface, tomate, 2 hambúrgueres, bacon, creme cheddar, 3 ovos, 3 fatias de mussarela, molho e cebola.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812520480blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51184/0/snack-burguer-."
+      },
+      {
+        name: "Super Monster",
+        price: "R$ 56,00",
+        desc: "3 camadas de pão brioche, 3 hambúrgueres, banana, alface, tomate, 3 ovos, 3 fatias de mussarela, 2 camadas de bacon e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812558654blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51185/0/snack-burguer-."
+      },
+      {
+        name: "Picanha Burguer",
+        price: "R$ 30,00",
+        desc: "Pão brioche, tomate, tiras de picanha, alface, cebola, mussarela, barbecue e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810776766blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b5117f/0/snack-burguer-."
+      },
+      {
+        name: "Snack Cuiabano",
+        price: "R$ 30,00",
+        desc: "Pão brioche, cheddar, bacon, hambúrguer de linguiça cuiabana e cebola defumada na brasa.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810401530blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b5117d/0/snack-burguer-."
+      },
+      {
+        name: "Duplo Smash",
+        price: "R$ 30,00",
+        desc: "Pão brioche, 2 hambúrgueres, alface, tomate, cebola crispy, 2 fatias de mussarela, barbecue e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810998375blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51181/0/snack-burguer-."
+      },
+      {
+        name: "Colony Burguer",
+        price: "R$ 30,00",
+        desc: "Pão brioche, alface, tomate, 2 hambúrgueres, queijo cheddar e cebola caramelizada no vinho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810896983blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51180/0/snack-burguer-."
+      },
+      {
+        name: "Filé Burguer",
+        price: "R$ 33,00",
+        desc: "Pão brioche, alface, tomate, tiras de filé mignon, cebola defumada, mussarela, barbecue e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747812611554blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51183/0/snack-burguer-."
+      },
+      {
+        name: "Toscana Burguer",
+        price: "R$ 24,00",
+        desc: "Pão brioche, alface, linguiça toscana na brasa, tomate, ovo, mussarela, cebola, barbecue e molho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810487380blob.webp",
+        link: "https://pedido.anota.ai/product/EXEMPLO"
+      },
+      {
+        name: "Durack",
+        price: "R$ 33,00",
+        desc: "Pão brioche, alface, tomate, hambúrguer, banana, mel, queijo coalho.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747811149889blob.webp",
+        link: "https://pedido.anota.ai/product/EXEMPLO"
+      }
+    ]
   }
 ];
 

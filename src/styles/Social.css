@@ -63,7 +63,7 @@
 }
 
 .instagram {
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 
 .phone {
@@ -108,8 +108,7 @@
   animation: pulse 2s infinite;
 }
 .InstaLogo {
-    width: 40px;
-    border-radius: 50%;
+    width: 30px;
 }
 .WpLogo {
     width: 50px;

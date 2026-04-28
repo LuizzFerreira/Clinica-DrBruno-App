@@ -41,7 +41,7 @@
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  width: 90px;
+  width: 100px;
   height: 40px;
   text-decoration: none;
 }
@@ -64,8 +64,11 @@
   height: 3px;
   background: white;
 }
+.logo-nav {
+  display: flex;
+  height: fit-content;
+}
 
-/* 📱 MOBILE */
 @media (max-width: 768px) {
   .links {
     position: absolute;

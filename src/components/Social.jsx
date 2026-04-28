@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../styles/Social.css";
-import InstaLogo from "../assets/img/logo-insta.png";
+import InstaLogo from "../assets/img/logo-insta2.webp";
 import WpLogo from "../assets/img/icone-do-whatsapp.png";
 import TlLogo from "../assets/img/telefone-icon.webp";
 import LgLogo from "../assets/img/icone-licacao.webp";

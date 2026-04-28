@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <a href="/">
+      <a className="logo-nav" href="/">
         <img className="logo" src={logo} alt="SNACK Logo" />
       </a>
 
@@ -22,7 +22,7 @@ export default function Navbar() {
       </div>
 
       <a href="https://www.google.com/maps?q=Rua%20Bras%C3%ADlia%2C%20112%20Centro%20Apu%C3%AD%20AM%2069265-000" target="_blank" rel="noreferrer" className="visit-btn">
-        <p>Visit Us</p>
+        <p>Nos Visite</p>
       </a>
 
       <div className="hamburger" onClick={() => setOpen(!open)}>

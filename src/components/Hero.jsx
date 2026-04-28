@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Hero.css";
 import img1 from "../assets/img/image-10.webp";
 import img2 from "../assets/img/image-7.webp";
@@ -47,8 +48,12 @@ export default function Hero() {
         <p>Faça seu pedido pelo nosso link ou venha nos visitar...</p>
 
         <div className="buttons">
-          <button className="primary">Order Now</button>
-          <button className="secondary">Ver Cardápio</button>
+          <a href="https://pedido.anota.ai" target="_blank" rel="noreferrer">
+            <button className="primary">Peça Agora</button>
+          </a>
+          <Link to="/menu">
+            <button className="secondary">Ver Cardápio</button>
+          </Link>
         </div>
       </div>
     </section>
