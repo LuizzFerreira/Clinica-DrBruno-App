@@ -15,44 +15,43 @@ export default function Location() {
       </div>
 
       {/* GRID PRINCIPAL */}
-      <div className="location-grid">
-        {/* MAPA */}
-        <div className="map">
-          <iframe
-            title="SNACK Location"
-            src="https://www.google.com/maps?q=Rua%20Bras%C3%ADlia%2C%20112%20Centro%20Apu%C3%AD%20AM%2069265-000&output=embed"
-            allowFullScreen
-            loading="lazy"
-          ></iframe>
+    <div className="location-grid">
+      {/* MAPA */}
+      <div className="map">
+        <iframe
+          title="Localização Dr. Bruno Alex"
+          /* Link atualizado para R. Arlinda Ramos Roleira, 177 */
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.64765377543!2d-46.6853755!3d-23.731422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce457f9c89e701%3A0x67a3f36070659635!2sR.%20Arlinda%20Ramos%20Roleira%2C%20177%20-%20S%C3%A3o%20Paulo%2C%20SP%2C%2004860-070!5e0!3m2!1spt-BR!2sbr!4v1713290000000!5m2!1spt-BR!2sbr"
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
 
-          <div className="map-overlay">
-            <h3>Nossa Sede</h3>
-            <p>Rua Brasília, 112 - Centro, Apuí - AM</p>
-          </div>
+        <div className="map-overlay">
+          <h3>Nossa Unidade</h3>
+          <p>R. Arlinda Ramos Roleira, 177</p>
+          <p>São Paulo - SP, 04860-070</p>
+        </div>
+      </div>
+
+      {/* SIDE INFO */}
+      <div className="side">
+        <div className="card">
+          <h3>Agendamento</h3>
+          <p>📞 +55 (11) 97326-2573</p>
+          <p>💬 WhatsApp disponível</p>
         </div>
 
-        {/* SIDE INFO */}
-        <div className="side">
-          <div className="card">
-            <h3>Contato</h3>
-            <p>📞 +55 (11) 97326-2573</p>
-          </div>
+        <div className="card">
+          <h3>Horário de Atendimento</h3>
 
-          <div className="card">
-            <h3>Horário de Funcionamento</h3>
-
-            <div className="hours">
-              <p><strong>Seg:</strong> 14:00 - 00:00</p>
-              <p><strong>Ter:</strong> Fechado</p>
-              <p><strong>Qua:</strong> 14:00 - 00:00</p>
-              <p><strong>Qui:</strong> 14:00 - 00:00</p>
-              <p><strong>Sex:</strong> 14:00 - 00:00</p>
-              <p><strong>Sáb:</strong> 14:00 - 00:00</p>
-              <p><strong>Dom:</strong> 14:00 - 00:00</p>
-            </div>
+          <div className="hours">
+            <p><strong>Seg - Sex:</strong> 08:00 - 18:00</p>
+            <p><strong>Sáb:</strong> 08:00 - 12:00</p>
+            <p><strong>Dom:</strong> Fechado</p>
           </div>
         </div>
       </div>
+    </div>
 
       {/* Gallery FINAL */}
       <div className="location-bottom">

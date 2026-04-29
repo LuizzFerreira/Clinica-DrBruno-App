@@ -16,7 +16,7 @@ export default function Visit() {
           <div className="info">
             <div>
               <span>📍</span>
-              <p>Rua dos Hambúrgueres, 123<br />Bairro Gastronômico, SP</p>
+              <p>Rua Arlinda Ramos Roleira, 177- SP, 04860-070</p>
             </div>
             <div>
               <span>⏰</span>

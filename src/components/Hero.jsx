@@ -48,11 +48,11 @@ export default function Hero() {
         <p>Transformando Vidas Através de Sorrisos</p>
 
         <div className="buttons">
-          <a href="https://pedido.anota.ai" target="_blank" rel="noreferrer">
-            <button className="primary">Peça Agora</button>
+          <a href="https://wa.me/5511973262573" target="_blank" rel="noreferrer">
+            <button className="primary">Entre em contato</button>
           </a>
           <Link to="/menu">
-            <button className="secondary">Ver Cardápio</button>
+            <button className="secondary">Clínica</button>
           </Link>
         </div>
       </div>
