@@ -32,12 +32,12 @@ export default function Gallery() {
       <div className="Gallery-header">
         <h1>A ARTE DO SABOR</h1>
         <p>
-          Uma jornada visual pela nossa cozinha, nossas criações e a comunidade que faz da SNACK um ponto de referência.
+          Uma jornada visual pela nossa clinica.
         </p>
 
         <div className="filters">
           <button onClick={() => setFilter("all")}>Tudo</button>
-          <button onClick={() => setFilter("burgers")}>Os Burguers</button>
+          <button onClick={() => setFilter("burgers")}>Os Tratamentos</button>
           <button onClick={() => setFilter("atmosphere")}>Ambiente</button>
           <button onClick={() => setFilter("people")}>Nossa Gente</button>
         </div>

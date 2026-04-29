@@ -10,8 +10,7 @@ export default function Location() {
         <span className="tag">ONDE ESTAMOS</span>
         <h1>No Coração da Cidade</h1>
         <p>
-          Localizada no vibrante centro da cidade, a SNACK traz o artesanato
-          culinário para a experiência clássica de uma hamburgueria.
+          Localizada.
         </p>
       </div>
 
