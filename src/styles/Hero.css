@@ -136,9 +136,7 @@ button {
     height: 70vh;
     justify-content: center;
   }
-  .hero-content {
-    text-align: center;
-  }
+
   .hero h1 {
     font-size: 40px;
   }
