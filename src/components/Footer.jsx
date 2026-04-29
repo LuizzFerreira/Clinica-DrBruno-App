@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div>
         <div className="footer-left">
-          <h2>SNACK</h2>
+          <h2>Dr. Bruno Alex</h2>
           <p>© 2024 Snack Artisanal Burgers. All rights reserved.</p>
         </div>
         <div className="footer-center">

@@ -11,10 +11,11 @@
   padding: 0 40px;
   z-index: 1000;
   transition: background-color 0.3s ease;
+  border-bottom: 1px solid #22222213;
 }
 
 .navbar.scrolled {
-  background: rgba(15, 15, 25, 0.8);
+  background: rgba(15, 15, 25, 0.527);
   backdrop-filter: blur(10px);
 }
 .navbar.scrolled > .logo-nav {
@@ -55,7 +56,7 @@
 .links a {
   color: #000000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   transition: all 0.3s ease;
   position: relative;
 }
@@ -95,11 +96,12 @@
 
 .visit-btn:hover {
   background: #07012a;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .visit-btn > p {
   font-family: var(--heading);
   font-size: 13px;
+      font-weight: 500;
   line-height: normal;
 }
 

@@ -1,6 +1,6 @@
 import "../styles/Location.css";
-import img1 from "../assets/img/image-5.webp";
-import img2 from "../assets/img/image-10.webp";
+import img1 from "../assets/img/image-8.jpg";
+import img2 from "../assets/img/image-3.jpg";
 
 export default function Location() {
   return (
