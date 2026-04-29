@@ -35,7 +35,7 @@ export default function Location() {
         <div className="side">
           <div className="card">
             <h3>Contato</h3>
-            <p>📞 +55 (97) 98416 - 0533</p>
+            <p>📞 +55 (11) 97326-2573</p>
           </div>
 
           <div className="card">
