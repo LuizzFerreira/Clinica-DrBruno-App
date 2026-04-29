@@ -16,7 +16,7 @@
   margin: auto;
 }
 .footer-left h2 {
-  color: orange;
+  color: #ffffff;
   margin-bottom: 5px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .footer-center a:hover {
-  color: orange;
+  color: #07012a;
 }
 
 .footer-right span {

@@ -1,6 +1,6 @@
 .Gallery {
   padding: 100px 40px;
-  background: radial-gradient(circle at top, #111, #000);
+  background: #ffffff;
   color: white;
   text-align: center;
 }
@@ -36,7 +36,7 @@
 }
 
 .filters button:hover {
-  background: orange;
+  background: #07012a;
   color: black;
 }
 
@@ -78,11 +78,12 @@
 }
 
 .primary {
-  background: orange;
+  background: #07012a;
   border: none;
   padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -101,8 +102,8 @@
 
 .secondary {
   background: transparent;
-  border: 1px solid orange;
-  color: orange;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;

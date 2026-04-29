@@ -74,7 +74,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: orange;
+  background: #07012a;
   border: none;
   color: black;
   font-size: 24px;
@@ -90,16 +90,17 @@
 .social-main-btn > img {
     width: 30px;
     height: 30px;
+    filter: invert(1);
 }
 .social-container.active .social-main-btn {
   transform: rotate(45deg);
   background: #333;
-  color: orange;
+  color: #07012a;
 }
 
 /* Efeito de pulso no botão principal quando inativo */
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(255, 165, 0, 0.7); }
+  0% { box-shadow: 0 4px 20px rgba(7, 1, 42, 0.4); }
   70% { box-shadow: 0 0 0 15px rgba(255, 165, 0, 0); }
   100% { box-shadow: 0 0 0 0 rgba(255, 165, 0, 0); }
 }

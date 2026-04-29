@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.css";
-import img1 from "../assets/img/image-10.webp";
-import img2 from "../assets/img/image-7.webp";
-import img3 from "../assets/img/image-11.webp";
-import img4 from "../assets/img/image-12.webp";;
+import img1 from "../assets/img/image-7.jpg";
+import img2 from "../assets/img/image-9.jpg";
+import img3 from "../assets/img/image-8.jpg";
+import img4 from "../assets/img/image-10.jpg";;
 
 const images = [img1, img2, img3, img4];
 
@@ -42,10 +42,10 @@ export default function Hero() {
         <span className="tag">Seu Jantar tem que ter...</span>
 
         <h1>
-          Snack <span>Burguer</span>
+          Bem Vindo A <span>Clinica Dr. Bruno</span>
         </h1>
 
-        <p>Faça seu pedido pelo nosso link ou venha nos visitar...</p>
+        <p>Transformando Vidas Através de Sorrisos</p>
 
         <div className="buttons">
           <a href="https://pedido.anota.ai" target="_blank" rel="noreferrer">

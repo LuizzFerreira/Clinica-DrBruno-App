@@ -19,10 +19,14 @@
 
 .hero-content {
   position: relative;
-  max-width: 600px;
+  max-width: 1200px;
   color: white;
+  z-index: 2;
   text-align: left;
   animation: slideInLeft 1s ease-out forwards;
+}
+.hero-content > p {
+  font-size: 20px;
 }
 
 @keyframes slideInLeft {
@@ -36,14 +40,14 @@
   }
 }
 .hero-content > h1 {
-  color: white;
+  color: #07012a;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
 .tag {
-  color: orange;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -55,11 +59,12 @@
 }
 
 .hero h1 span {
-  color: orange;
+  color: #07012a;
+  text-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
 }
 
 .hero p {
-  font-size: 16px;
+  font-size: 20px;
   opacity: 0.8;
   margin-bottom: 20px;
   text-align: left;
@@ -79,14 +84,14 @@ button {
 }
 
 .primary {
-  background: orange;
+  background: #07012a;
   color: black;
 }
 
 .secondary {
   background: transparent;
-  border: 1px solid orange;
-  color: orange;
+  border: 1px solid #07012a;
+  color: #07012a;
 }
 .hero {
   position: relative;
@@ -123,14 +128,6 @@ button {
     rgba(0, 0, 0, 0.3)
   );
   z-index: 1;
-}
-
-/* conteúdo fica acima */
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 600px;
-  color: white;
 }
 
 @media (max-width: 768px) {

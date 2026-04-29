@@ -8,7 +8,7 @@ import Social from '../src/components/Social.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter> {/* 👈 ENVOLVE TUDO */}
+    <BrowserRouter>
       <Navbar />
       <Social />
       <App />

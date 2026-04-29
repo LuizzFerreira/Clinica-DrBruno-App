@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styles/Visit.css";
-import img1 from "../assets/img/image-1.webp";
+import img1 from "../assets/img/image-9.jpg";
 
 export default function Visit() {
   return (

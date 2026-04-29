@@ -1,158 +1,62 @@
-.menu-page {
-  padding: 100px 40px;
-  background: #0b0b0b;
-  color: white;
-  min-height: 100vh;
+.galeria-section {
+  padding: 60px 20px;
+  background: #ffffff;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.menu-header {
+.galeria-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
-.menu-header h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-  line-height: normal;
-}
-
-.menu-header h1 span {
-  color: orange;
-}
-
-.menu-header p {
-  opacity: 0.7;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* CATEGORIAS */
-.menu-categories {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
-}
-
-.category-btn {
-  padding: 10px 25px;
-  border-radius: 30px;
-  border: 1px solid #222;
-  background: #111;
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
-  font-weight: 500;
-}
-
-.category-btn.active, .category-btn:hover {
-  background: orange;
-  color: black;
-  border-color: orange;
-}
-
-/* GRID DE ITENS */
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.menu-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  background: #111;
-  border-radius: 15px;
-  overflow: hidden;
-  border: 1px solid #222;
-  transition: 0.3s;
-}
-
-.menu-item:hover {
-  transform: translateY(-5px);
-  border-color: orange;
-}
-
-.item-image {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-position: center;
-}
-
-.item-info {
-  padding: 20px;
-}
-
-.item-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 10px;
-}
-
-.item-top h3 {
+.galeria-header h2 {
   font-size: 20px;
-}
-
-.price {
-  color: orange;
+  letter-spacing: 1px;
+  color: #000;
   font-weight: bold;
-  font-size: 18px;
 }
 
-.item-info p {
-  font-size: 14px;
-  opacity: 0.6;
-  line-height: 1.5;
-  margin-bottom: 20px;
+.galeria-header p {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
 }
 
-.add-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: orange;
+/* Grid Mágico */
+.galeria-grid {
+  display: grid;
+  /* Cria colunas que se ajustam sozinhas (mínimo 300px) */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px; /* Espaçamento fino entre as fotos como no print */
+}
+
+.galeria-item {
+  position: relative;
+  height: 250px; /* Altura fixa para manter o padrão */
+  overflow: hidden;
   cursor: pointer;
-  background: 0 0;
-  border: 1px solid orange;
-  border-radius: 8px;
-  width: 100%;
-  padding: 12px;
-  font-weight: 700;
-  transition: all .3s;
-  font-size: 13px;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 0.84rem;
 }
 
-.add-btn:hover {
-  background: orange;
-  color: black;
+.galeria-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
 }
-.section-title {
-    margin-bottom: 40px;
+
+.galeria-item:hover img {
+  transform: scale(1.1);
 }
-.menu-section {
-    margin-bottom: 60px;
-}
-/* RESPONSIVIDADE */
-@media (max-width: 768px) {
-  .menu-page {
-    padding: 80px 20px;
+
+@media (min-width: 1024px) {
+  .galeria-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
-  
-  .menu-header h1 {
-    font-size: 36px;
-  }
-  
-  .menu-grid {
+}
+
+@media (max-width: 600px) {
+  .galeria-grid {
     grid-template-columns: 1fr;
   }
 }
