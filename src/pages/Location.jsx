@@ -8,7 +8,7 @@ export default function Location() {
       {/* HEADER */}
       <div className="location-header">
         <span className="tag">ONDE ESTAMOS</span>
-        <h1>Hambúrgueres Artesanais no Coração da Cidade</h1>
+        <h1>No Coração da Cidade</h1>
         <p>
           Localizada no vibrante centro da cidade, a SNACK traz o artesanato
           culinário para a experiência clássica de uma hamburgueria.
