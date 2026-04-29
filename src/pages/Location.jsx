@@ -1,5 +1,5 @@
 import "../styles/Location.css";
-import img1 from "../assets/img/image-8.jpg";
+import img1 from "../assets/img/image-8.jpeg";
 import img2 from "../assets/img/image-3.jpg";
 
 export default function Location() {
@@ -20,7 +20,6 @@ export default function Location() {
       <div className="map">
         <iframe
           title="Localização Dr. Bruno Alex"
-          /* Link atualizado para R. Arlinda Ramos Roleira, 177 */
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.64765377543!2d-46.6853755!3d-23.731422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce457f9c89e701%3A0x67a3f36070659635!2sR.%20Arlinda%20Ramos%20Roleira%2C%20177%20-%20S%C3%A3o%20Paulo%2C%20SP%2C%2004860-070!5e0!3m2!1spt-BR!2sbr!4v1713290000000!5m2!1spt-BR!2sbr"
           allowFullScreen
           loading="lazy"

@@ -1,5 +1,5 @@
 import "../styles/ShowcaseSecond.css";
-import img1 from "../assets/img/image-7.jpg";
+import img1 from "../assets/img/image-7.jpeg";
 import img2 from "../assets/img/image-3.jpg";
 
 export default function ShowcaseSecond() {

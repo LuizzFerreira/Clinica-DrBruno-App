@@ -1,8 +1,8 @@
 import "../styles/Menu.css";
-import fotoFachada1 from "../assets/img/image-8.jpg";
-import fotoFachada2 from "../assets/img/image-7.jpg";
-import fotoRecepcao from "../assets/img/image-8.jpg";
-import fotoInterna from "../assets/img/image-7.jpg";
+import fotoFachada1 from "../assets/img/image-8.jpeg";
+import fotoFachada2 from "../assets/img/image-7.jpeg";
+import fotoRecepcao from "../assets/img/image-8.jpeg";
+import fotoInterna from "../assets/img/image-7.jpeg";
 
 export default function Galeria() {
   const fotos = [

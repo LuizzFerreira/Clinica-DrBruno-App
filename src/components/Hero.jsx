@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.css";
-import img1 from "../assets/img/image-7.jpg";
-import img2 from "../assets/img/image-9.jpg";
-import img3 from "../assets/img/image-8.jpg";
-import img4 from "../assets/img/image-10.jpg";;
+import img1 from "../assets/img/image-7.jpeg";
+import img2 from "../assets/img/image-17.jpeg";
+import img3 from "../assets/img/image-8.jpeg";
+import img4 from "../assets/img/image-14.jpeg";;
 
 const images = [img1, img2, img3, img4];
 

@@ -1,6 +1,6 @@
 import "../styles/Team.css";
 // Substitua pelos caminhos reais das suas fotos
-import fotoBruno from "../assets/img/image-10.jpg";
+import fotoBruno from "../assets/img/image-9.jpeg";
 import fotoDra from "../assets/img/image-5.jpg";
 
 export default function Equipe() {

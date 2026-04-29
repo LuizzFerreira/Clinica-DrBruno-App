@@ -1,9 +1,9 @@
 import "../styles/Showcase.css";
-import imgImplantes from "../assets/img/image-1.jpg"; 
-import imgOrtodontia from "../assets/img/image-2.jpg";
+import imgImplantes from "../assets/img/image-9.jpeg"; 
+import imgOrtodontia from "../assets/img/image-16.jpeg";
 import imgInvisalign from "../assets/img/image-3.jpg";
 import imgLentes from "../assets/img/image-4.jpg";
-import imgClareamento from "../assets/img/image-5.jpg";
+import imgClareamento from "../assets/img/image-14.jpeg";
 import imgProtese from "../assets/img/image-6.jpg";
 
 export default function Showcase() {
