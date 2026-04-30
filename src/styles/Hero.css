@@ -140,9 +140,6 @@ button {
   .hero h1 {
     font-size: 40px;
   }
-  .buttons {
-    justify-content: center;
-  }
   .hero-content > h1 {
     line-height: 2.7rem;
   }
