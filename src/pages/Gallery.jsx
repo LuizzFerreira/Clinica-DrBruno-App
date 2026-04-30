@@ -30,7 +30,7 @@ export default function Gallery() {
     <section className="Gallery">
       {/* HEADER */}
       <div className="Gallery-header">
-        <h1>A ARTE DO SABOR</h1>
+        <h1>Dr. Bruno Alex UNIDADE SAO PAULO</h1>
         <p>
           Uma jornada visual pela nossa clinica.
         </p>
