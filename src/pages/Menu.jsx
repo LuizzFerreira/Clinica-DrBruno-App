@@ -18,7 +18,7 @@ export default function Galeria() {
     <section className="galeria-section">
       <div className="galeria-header">
         <h2>Dr. Bruno Alex UNIDADE SAO PAULO</h2>
-        <p>CLIQUE NAS FOTOS PARA AMPLIAR</p>
+        <p>VENHA NOS VISITAR</p>
       </div>
 
       <div className="galeria-grid">
