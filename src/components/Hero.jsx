@@ -39,7 +39,7 @@ export default function Hero() {
       <div className="overlay" />
 
       <div className="hero-content">
-        <span className="tag">Seu Jantar tem que ter...</span>
+        <span className="tag">São Paulo</span>
 
         <h1>
           Bem Vindo A <span>Clinica Dr. Bruno</span>
