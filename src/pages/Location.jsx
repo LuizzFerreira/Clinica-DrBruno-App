@@ -1,6 +1,6 @@
 import "../styles/Location.css";
 import img1 from "../assets/img/image-8.jpeg";
-import img2 from "../assets/img/image-3.jpg";
+import img2 from "../assets/img/image-14.jpeg";
 
 export default function Location() {
   return (
@@ -35,7 +35,7 @@ export default function Location() {
         <div className="card">
           <h3>Agendamento</h3>
           <p>📞 +55 (11) 97326-2573</p>
-          <p>drbrunoalex5@gmail.com</p>
+          <p>✉️ drbrunoalex5@gmail.com</p>
         </div>
 
         <div className="card">
