@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         <div className="footer-left">
           <h2>Dr. Bruno Alex</h2>
-          <p>© 2024 Snack Artisanal Burgers. All rights reserved.</p>
+          <p>© 2024 Clinica Dr. Bruno Alex.Todos os direitos reservados.</p>
         </div>
         <div className="footer-center">
           <a href="#">Privacy Policy</a>

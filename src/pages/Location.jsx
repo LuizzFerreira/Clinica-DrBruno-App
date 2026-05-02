@@ -9,9 +9,7 @@ export default function Location() {
       <div className="location-header">
         <span className="tag">ONDE ESTAMOS</span>
         <h1>No Coração da Cidade</h1>
-        <p>
-          Localizada.
-        </p>
+        <p>R. Arlinda Ramos Roleira, 177</p>
       </div>
 
       {/* GRID PRINCIPAL */}
@@ -37,7 +35,7 @@ export default function Location() {
         <div className="card">
           <h3>Agendamento</h3>
           <p>📞 +55 (11) 97326-2573</p>
-          <p>💬 WhatsApp disponível</p>
+          <p>drbrunoalex5@gmail.com</p>
         </div>
 
         <div className="card">

@@ -35,7 +35,6 @@ export default function Navbar() {
         <Link to="/" onClick={() => setOpen(false)}>Home</Link>
         <Link to="/Gallery" onClick={() => setOpen(false)}>Clínica</Link>
         <Link to="/Menu" onClick={() => setOpen(false)}>Tratamentos</Link>
-        <Link to="/" onClick={() => setOpen(false)}>Equipe</Link>
         <Link to="/location" onClick={() => setOpen(false)}>Localização</Link>
       </div>
 

@@ -1,21 +1,23 @@
 import { useState } from "react";
 import "../styles/Gallery.css";
 import img1 from "../assets/img/image-7.jpeg";
-import img2 from "../assets/img/image-7.jpeg";
-import img3 from "../assets/img/image-2.jpg";
+import img2 from "../assets/img/image-8.jpeg";
+import img3 from "../assets/img/image-14.jpeg";
 import img4 from "../assets/img/image-9.jpeg";
-import img5 from "../assets/img/image-5.jpg";
-import img6 from "../assets/img/image-6.jpg";
-import img7 from "../assets/img/image-5.jpg";
+import img5 from "../assets/img/image-20.jpeg";
+import img6 from "../assets/img/image-17.jpeg";
+import img7 from "../assets/img/image-19.jpeg";
+import img8 from "../assets/img/image-18.jpeg";
 
 const images = [
   { src: img1, category: "burgers" },
-  { src: img2, category: "people" },
+  { src: img2, category: "burgers" },
   { src: img3, category: "burgers" },
   { src: img4, category: "atmosphere" },
   { src: img5, category: "burgers" },
-  { src: img6, category: "burgers" },
-  { src: img7, category: "atmosphere" },
+  { src: img6, category: "people" },
+  { src: img7, category: "people" },
+  { src: img8, category: "people" },
 ];
 
 export default function Gallery() {

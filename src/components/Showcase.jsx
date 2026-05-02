@@ -18,7 +18,7 @@ export default function Showcase() {
 
   return (
     <section className="showcase">
-      <h1 className="showcase-title">Clínica Odontológica - Rio de Janeiro</h1>
+      <h1 className="showcase-title">Clínica Odontológica - São Paulo</h1>
       
       <div className="showcase-grid">
         {servicos.map((item, index) => (

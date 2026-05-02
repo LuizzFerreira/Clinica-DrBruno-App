@@ -1,23 +1,31 @@
 import "../styles/Team.css";
 // Substitua pelos caminhos reais das suas fotos
 import fotoBruno from "../assets/img/image-9.jpeg";
-import fotoDra from "../assets/img/image-5.jpg";
+import fotoDra from "../assets/img/image-19.jpeg";
+import fotoAlex from "../assets/img/image-18.jpeg";
 
 export default function Equipe() {
   const profissionais = [
     {
       nome: "Dr. Bruno Alex",
-      cargo: "Sócio / Diretor Clínico",
-      cro: "CRO-RJ: 00000",
-      especialidades: ["Especialista em Implantodontia", "Estética Dental"],
+      cargo: null,
+      cro: null,
+      especialidades: ["RT - Responsável técnico"],
       foto: fotoBruno,
     },
     {
-      nome: "Dra. Thaísa Arreguy Grossi",
-      cargo: "Sócia / Responsável Técnica",
-      cro: "CRO-RJ: 36308",
-      especialidades: ["Especialista em Ortodontia", "Invisalign Doctor"],
+      nome: "Dra Stefani Maciel",
+      cargo: null,
+      cro: null,
+      especialidades: ["Harmonização orofacial - HOF"],
       foto: fotoDra,
+    },
+        {
+      nome: "Dr Alexandre Ortodontista",
+      cargo: null,
+      cro: null,
+      especialidades: [null],
+      foto: fotoAlex,
     }
   ];
 
