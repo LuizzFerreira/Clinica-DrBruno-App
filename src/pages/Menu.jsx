@@ -1,10 +1,10 @@
 import "../styles/Menu.css";
-import fotoFachada1 from "../assets/img/image-8.jpeg";
-import fotoFachada2 from "../assets/img/image-7.jpeg";
-import fotoRecepcao from "../assets/img/image-17.jpeg";
-import fotoInterna from "../assets/img/image-14.jpeg";
-import fotoInterna2 from "../assets/img/image-21.jpeg";
-import fotoInterna3 from "../assets/img/image-20.jpeg";
+import fotoFachada1 from "../assets/img/image-28.webp";
+import fotoFachada2 from "../assets/img/image-24.webp";
+import fotoRecepcao from "../assets/img/image-27.webp";
+import fotoInterna from "../assets/img/image-23.webp";
+import fotoInterna2 from "../assets/img/endodontia.webp";
+import fotoInterna3 from "../assets/img/image-26.webp";
 
 export default function Galeria() {
   const fotos = [
@@ -18,7 +18,7 @@ export default function Galeria() {
       src: fotoFachada2, 
       alt: "Clareamento Dental", 
       titulo: "Clareamento",
-      descricao: "Deixe seu sorriso mais branco com segurança."
+      descricao: "Existem algumas formas e técnicas de clareamento dentais, alguns fatores precisam ser avaliados individualmente."
     },
     { 
       src: fotoInterna, 
@@ -30,7 +30,7 @@ export default function Galeria() {
       src: fotoRecepcao, 
       alt: "Implantes Dentários", 
       titulo: "Implantes",
-      descricao: "Reposição de dentes com tecnologia avançada."
+      descricao: "Os implantes são raízes artificiais que substituem dentes perdidos de forma individual ou total, sendo usados em implantes unitários e no protocolo, devolvendo estética, função e segurança ao paciente."
     },
     { 
       src: fotoInterna2, 
@@ -42,7 +42,7 @@ export default function Galeria() {
       src: fotoInterna3, 
       alt: "Facetas Dentárias", 
       titulo: "Facetas",
-      descricao: "Lentes de porcelana para um sorriso perfeito."
+      descricao: "Facetas laminadas ou lentes de contato são revestimentos cerâmicos finos, colocados sobre a parte frontal dos dentes."
     },
   ];
 

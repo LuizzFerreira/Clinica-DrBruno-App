@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "../styles/Gallery.css";
-import img1 from "../assets/img/image-7.jpeg";
-import img2 from "../assets/img/image-8.jpeg";
-import img3 from "../assets/img/image-14.jpeg";
-import img4 from "../assets/img/image-9.jpeg";
-import img5 from "../assets/img/image-20.jpeg";
-import img6 from "../assets/img/image-17.jpeg";
-import img7 from "../assets/img/image-19.jpeg";
-import img8 from "../assets/img/image-18.jpeg";
+import img1 from "../assets/img/image-7.webp";
+import img2 from "../assets/img/image-8.webp";
+import img3 from "../assets/img/image-14.webp";
+import img4 from "../assets/img/image-9.webp";
+import img5 from "../assets/img/image-20.webp";
+import img6 from "../assets/img/image-17.webp";
+import img7 from "../assets/img/image-19.webp";
+import img8 from "../assets/img/image-18.webp";
 
 const images = [
   { src: img1, category: "burgers" },

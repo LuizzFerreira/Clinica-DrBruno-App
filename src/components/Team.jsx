@@ -1,8 +1,8 @@
 import "../styles/Team.css";
 // Substitua pelos caminhos reais das suas fotos
-import fotoBruno from "../assets/img/image-9.jpeg";
-import fotoDra from "../assets/img/image-19.jpeg";
-import fotoAlex from "../assets/img/image-18.jpeg";
+import fotoBruno from "../assets/img/image-9.webp";
+import fotoDra from "../assets/img/image-19.webp";
+import fotoAlex from "../assets/img/image-18.webp";
 
 export default function Equipe() {
   const profissionais = [

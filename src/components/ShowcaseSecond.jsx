@@ -1,6 +1,6 @@
 import "../styles/ShowcaseSecond.css";
-import img1 from "../assets/img/image-7.jpeg";
-import img2 from "../assets/img/image-3.jpg";
+import img1 from "../assets/img/image-7.webp";
+import img2 from "../assets/img/image-3.webp";
 
 export default function ShowcaseSecond() {
   return (
@@ -31,19 +31,16 @@ export default function ShowcaseSecond() {
       {/* BOTTOM (cards pequenos) */}
       <div className="showcase-bottom">
         <div className="small-card">
-          <div className="icon">🦷</div>
           <h3>Prevenção e Cuidado</h3>
           <p>Check-ups regulares e limpeza profunda para garantir que sua saúde bucal esteja sempre em dia, evitando problemas futuros e mantendo seu hálito fresco.</p>
         </div>
 
         <div className="small-card">
-          <div className="icon">✨</div>
           <h3>Atendimento Ágil</h3>
           <p>Respeitamos o seu tempo. Consultas com hora marcada e fluxos digitais para que seu tratamento seja concluído de forma rápida, eficiente e sem burocracia.</p>
         </div>
 
         <div className="small-card">
-          <div className="icon">💎</div>
           <h3>Especialidades</h3>
           <p>Seleção completa de serviços, desde implantodontia até harmonização facial, para cuidar de todos os detalhes do seu rosto em um só lugar.</p>
         </div>

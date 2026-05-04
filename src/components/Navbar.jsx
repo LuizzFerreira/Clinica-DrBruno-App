@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 
-import logo from "../assets/img/LogoClinica.png";
+import logo from "../assets/img/LogoClinica.webp";
 
 export default function Navbar() {
   const location = useLocation();
@@ -33,7 +33,7 @@ export default function Navbar() {
 
       <div className={`links ${open ? "active" : ""}`}>
         <Link to="/" onClick={() => setOpen(false)}>Home</Link>
-        {/*<Link to="/Gallery" onClick={() => setOpen(false)}>Clínica</Link>*/}
+        <Link to="/Gallery" onClick={() => setOpen(false)}>Consultório</Link>
         <Link to="/Menu" onClick={() => setOpen(false)}>Tratamentos</Link>
         <Link to="/location" onClick={() => setOpen(false)}>Localização</Link>
       </div>

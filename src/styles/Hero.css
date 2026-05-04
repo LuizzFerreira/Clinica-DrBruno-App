@@ -44,6 +44,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+  line-height: 3.5rem;
   letter-spacing: -1px;
 }
 .tag {

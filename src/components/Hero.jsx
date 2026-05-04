@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.css";
-import img1 from "../assets/img/image-7.jpeg";
-import img2 from "../assets/img/image-17.jpeg";
-import img3 from "../assets/img/image-8.jpeg";
-import img4 from "../assets/img/image-14.jpeg";;
+import img1 from "../assets/img/image-7.webp";
+import img2 from "../assets/img/image-17.webp";
+import img3 from "../assets/img/image-8.webp";
+import img4 from "../assets/img/image-14.webp";;
 
 const images = [img1, img2, img3, img4];
 
@@ -42,7 +42,7 @@ export default function Hero() {
         <span className="tag">São Paulo</span>
 
         <h1>
-          Bem Vindo A <span>Clinica Dr. Bruno</span>
+          Bem Vindo A <span>Clinica Dr. Bruno Alex Silva</span>
         </h1>
 
         <p>Transformando Vidas Através de Sorrisos</p>

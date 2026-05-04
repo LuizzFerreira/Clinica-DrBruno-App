@@ -1,6 +1,11 @@
 import "../styles/Location.css";
-import img1 from "../assets/img/image-8.jpeg";
-import img2 from "../assets/img/image-14.jpeg";
+import img1 from "../assets/img/image-8.webp";
+import img2 from "../assets/img/image-14.webp";
+import WpLogo from "../assets/img/icone-do-whatsapp.webp";
+import TlLogo from "../assets/img/telefone-icon.webp";
+import LgLogo from "../assets/img/icone-licacao.webp";
+import InstaLogo from "../assets/img/logo-insta2.webp";
+
 
 export default function Location() {
   return (
@@ -8,7 +13,7 @@ export default function Location() {
       {/* HEADER */}
       <div className="location-header">
         <span className="tag">ONDE ESTAMOS</span>
-        <h1>No Coração da Cidade</h1>
+        <h1>Localização</h1>
         <p>R. Arlinda Ramos Roleira, 177</p>
       </div>
 
@@ -42,9 +47,9 @@ export default function Location() {
           <h3>Horário de Atendimento</h3>
 
           <div className="hours">
-            <p><strong>Seg - Sex:</strong> 08:00 - 18:00</p>
-            <p><strong>Sáb:</strong> 08:00 - 12:00</p>
-            <p><strong>Dom:</strong> Fechado</p>
+            <p><strong>Segunda e Quarta:</strong> 08:00 - 11:30</p>
+            <p><strong>Terça, quinta e Sexta:</strong> 08:00 - 18:00</p>
+            <p><strong>Domingo:</strong> 09:00 - 11:30</p>
           </div>
         </div>
       </div>
@@ -56,16 +61,19 @@ export default function Location() {
         <div className="img img2" style={{ backgroundImage: `url(${img2})` }} />
 
         <div className="follow">
-          <h3>Siga o Sabor</h3>
-          <p>Junte-se à nossa comunidade para novidades e promoções diárias.</p>
-
-          <div className="icons">
-            <span>🔗</span>
-            <span>📸</span>
-            <span>🐦</span>
+          <h3>Siga nosso Consultório</h3>
+          <p>Receba dicas simples de cuidado com os dentes e novidades da nossa clínica.</p>
+          <div>
+            <a href="https://wa.me/5511973262573" className="whatsapp" target="_blank" rel="noreferrer">
+                <img className="WpLogo" src={WpLogo} alt="Clinica Logo" />
+            </a>
+            <a href="https://www.instagram.com/drbrunoalexs?utm_source=qr" className="instagram" target="_blank" rel="noreferrer">
+              <img className="InstaLogo" src={InstaLogo} alt="Clinica Logo" />
+            </a>
+            <a href="tel:+5511973262573" className="phone">
+              <img className="TlLogo" src={TlLogo} alt="Clinica Logo" />
+            </a>
           </div>
-
-          <button>FAÇA PARTE DO CLUBE SNACK</button>
         </div>
       </div>
     </section>

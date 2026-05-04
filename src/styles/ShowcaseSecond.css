@@ -21,6 +21,7 @@
   align-items: flex-end;
   background-size: cover;
   background-position: center;
+  background-color: black;
 }
 
 .big-card .img-back {
@@ -29,6 +30,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.3;
 }
 
 .big-card .overlay {
@@ -41,6 +43,8 @@
   position: relative;
   padding: 20px;
   z-index: 6;
+  text-align: left;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
 }
 
 .big-card span {
