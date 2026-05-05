@@ -47,8 +47,7 @@ export default function Location() {
           <h3>Horário de Atendimento</h3>
 
           <div className="hours">
-            <p><strong>Segunda e Quarta:</strong> 08:00 - 11:30</p>
-            <p><strong>Terça, quinta e Sexta:</strong> 08:00 - 18:00</p>
+            <p><strong>Segunda a Sexta:</strong> 08:00 - 18:00</p>
             <p><strong>Domingo:</strong> 09:00 - 11:30</p>
           </div>
         </div>

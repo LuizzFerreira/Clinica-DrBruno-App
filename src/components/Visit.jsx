@@ -18,8 +18,7 @@ export default function Visit() {
             <div>
               <span>⏰</span>
               <div>
-                <p>Segunda e Quarta: 08:00 - 11:30</p>
-                <p>Terça, quinta e Sexta: 08:00 - 18:00</p>
+                <p>Segunda a Sexta: 08:00 - 18:00</p>
                 <p>Domingo: 09:00 - 11:30</p>
               </div>
             </div>

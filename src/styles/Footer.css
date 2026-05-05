@@ -25,15 +25,12 @@
   gap: 20px;
 }
 
-.footer-center a {
+.footer-center p {
   color: #777;
   text-decoration: none;
   font-size: 12px;
 }
 
-.footer-center a:hover {
-  color: #07012a;
-}
 
 .footer-right span {
   margin-left: 10px;

@@ -9,9 +9,9 @@ export default function Footer() {
           <p>© 2024 Clinica Dr. Bruno Alex.Todos os direitos reservados.</p>
         </div>
         <div className="footer-center">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Press Kit</a>
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+          <p>Press Kit</p>
         </div>
       </div>
     </footer>

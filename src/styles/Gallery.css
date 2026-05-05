@@ -8,7 +8,6 @@
 /* HEADER */
 .Gallery-header h1 {
   font-size: 36px;
-  margin-bottom: 10px;
   color: #07012a;
 }
 
@@ -43,23 +42,32 @@
 
 /* GRID */
 .Gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  column-count: 3;
+  column-gap: 15px;
   margin-bottom: 60px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .Gallery-item {
-  height: 220px;
+  width: 100%;
+  margin-bottom: 15px;
   border-radius: 12px;
-  background-size: cover;
-  background-position: center;
-  transition: 0.3s;
+  overflow: hidden;
   cursor: pointer;
+
+  break-inside: avoid;
+  transition: 0.3s;
+}
+
+.Gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .Gallery-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 /* CTA */

@@ -82,7 +82,7 @@ export default function Depoimentos() {
       <div className="depoimentos-header">
         <span className="section-label">DEPOIMENTOS</span>
         <h2>O que nossos pacientes <span>dizem</span></h2>
-        <p>Resultados reais de quem confiou na LGTec para crescer no digital.</p>
+        <p>Resultados reais de quem confiou na Clinica Dr. Bruno Alex</p>
       </div>
 
       <div className="dep-carrossel">

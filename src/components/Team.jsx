@@ -3,29 +3,37 @@ import "../styles/Team.css";
 import fotoBruno from "../assets/img/image-9.webp";
 import fotoDra from "../assets/img/image-19.webp";
 import fotoAlex from "../assets/img/image-18.webp";
+import fotoDanilo from "../assets/img/image-36.webp";
 
 export default function Equipe() {
   const profissionais = [
     {
       nome: "Dr. Bruno Alex",
-      cargo: null,
+      cargo: "Implantodontista",
       cro: null,
-      especialidades: ["RT - Responsável técnico"],
+      especialidades: ["Responsável técnico"],
       foto: fotoBruno,
     },
     {
-      nome: "Dra Stefani Maciel",
+      nome: "Dra. Stefani Maciel",
       cargo: null,
       cro: null,
       especialidades: ["Harmonização orofacial - HOF"],
       foto: fotoDra,
     },
         {
-      nome: "Dr Alexandre Ortodontista",
+      nome: "Dr. Alexandre",
       cargo: null,
       cro: null,
-      especialidades: [null],
+      especialidades: ["Ortodontista"],
       foto: fotoAlex,
+    },
+    {
+      nome: "Dr. Danilo Bandeira",
+      cargo: null,
+      cro: null,
+      especialidades: ["Endodontista"],
+      foto: fotoDanilo,
     }
   ];
 
@@ -42,13 +50,13 @@ export default function Equipe() {
             </div>
             <div className="membro-info">
               <h3>{pro.nome}</h3>
-              <p className="cargo">{pro.cargo}</p>
               <p className="cro">{pro.cro}</p>
               <div className="especialidades">
                 {pro.especialidades.map((esp, i) => (
                   <p key={i}>{esp}</p>
                 ))}
               </div>
+              <p className="cargo">{pro.cargo}</p>
             </div>
           </div>
         ))}
