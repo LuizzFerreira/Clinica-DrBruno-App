@@ -15,7 +15,7 @@ export default function Equipe() {
       foto: fotoBruno,
     },
     {
-      nome: "Dra. Stefani Maciel",
+      nome: "Dra. Stephanie Maciel",
       cargo: null,
       cro: null,
       especialidades: ["Harmonização orofacial - HOF"],
